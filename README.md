@@ -1,5 +1,5 @@
 # **Introdução**
-Implementação do Exercício [Lista Palíndroma](https://olimpiada.ic.unicamp.br/pratique/ps/2021/f2/lista/) presente na Segunda Fase da Nível Sênior da OBI de 2021.
+Implementação do Exercício [Lista Palíndroma](https://olimpiada.ic.unicamp.br/pratique/ps/2021/f2/lista/) presente na Segunda Fase de Nível Sênior da OBI de 2021.
 
 # **Apresentação do Problema**
 Uma palavra é chamada de palíndromo se a primeira letra da palavra é igual à última letra da palavra, a segunda letra é igual à penúltima letra, a terceira letra é igual à antepenúltima letra, e assim por diante. Por exemplo, as palavras osso e sopapos são palíndromos.
