@@ -1,7 +1,7 @@
 # **Introdução**
 Implementação do Exercício [Lista Palíndroma](https://olimpiada.ic.unicamp.br/pratique/ps/2021/f2/lista/) presente na Segunda Fase da Nível Sênior da OBI de 2021.
 
-#**Apresentação do Problema**
+# **Apresentação do Problema**
 Uma palavra é chamada de palíndromo se a primeira letra da palavra é igual à última letra da palavra, a segunda letra é igual à penúltima letra, a terceira letra é igual à antepenúltima letra, e assim por diante. Por exemplo, as palavras osso e sopapos são palíndromos.
 
 Nesta tarefa estamos interessados não em palavras, mas em listas de números inteiros. Nesse caso, vamos definir que uma lista é palíndroma se L[i] = L[N-i+1], onde L[i] representa o i-ésimo elemento da lista (note que nesta notação o índices variam de 1 a N).
@@ -17,7 +17,7 @@ A primeira linha da entrada contém um inteiro N, o número de elementos da list
 Seu programa deve produzir uma única linha, contendo um único inteiro, o menor número de operações de contração necessárias para tornar a lista palíndroma.
 
 
-#**Algoritmo Empregado**
+# **Algoritmo Empregado**
 O exercício acima representa uma variação do problema clássico de verificação de palíndromos, apenas com  a adição da operação de *contração* especificada acima. Dessa forma, o algoritmo para a solução será relativamente parecida com a solução para um problema clássico de palíndromo.
 
 Primeiramente, inicia-se o algoritmo com duas posições: **início** e **final**, que representam o primeiro e o último elemento da lista de valores a serem avaliados, respectivamente.
@@ -32,7 +32,7 @@ Dessa forma, o número mínimo de contrações será obtido ao final da execuç�
 
 Em questão de eficiência, o algoritmo acima apresenta compplexidade temporal *O(n)*, já que é necessário acessar todas as posições da lista uma vez.
 
-#**Especificação da Implementação**
+# **Especificação da Implementação**
 Na implementação realizada, criou-se um classe simples, que ao ser iniciada recebe o tamanho da lista e todos os seus elementos, separados por whitespaces.
 No caso da lista de elementos ser maior que o tamanho especificado, a a classe utilizará somente os n primeiros elementos, sendo *n = tamanho*.
 
@@ -40,7 +40,7 @@ Já no caso do tamanho especificado ser superior ao número de elementos forneci
 
 Por fim, a classe invoca um método que retorna número mínimo de contrações a serem realizadas, utilizando o algoritmo especificado na seção anterior.
 
-#**Remoção de Elementos**
+# **Remoção de Elementos**
 Um algoritmo muito similiar ao explicitado acima pode ser obtido também removendo elementos da lista ao realizar uma operação de contração nos casos *elemento[início] > elemento[final]* e *elemento[início] < elemento[final]*.
 Dessa forma, teria-se ao final do programa a lista atualizada, a qual seria o maior palíndromo possível.
 
